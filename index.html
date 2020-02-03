@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Holiday World | Welcome</title>
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row clear">
+                <img src="images/1.png" class="logo">
+                <ul class="main-nav animated slideInDown" id="check" >
+                    <li><a href="#">Check Pakages</a></li>
+                    <li><a href="#">Book Now</a></li>
+                    <li><a href="#">SignUp</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <a href="#" class="icon" onclick="slideshow()"><i class="fa fa-bars" style="font-size:24px"></i></a>
+            </div>
+        </nav>
+        
+        <div class="main-header">
+        <h1>WELCOME TO <SPAN class="colr">HOLIDAY WORLD</SPAN>.<BR> THE SMARTEST WAY TO ARRAIVE ON A HOLIDAY..</h1>
+            <a href="#" class="btn btn-full animated slideInUp">Click to Book</a>
+            <a href="#" class="btn btn-full1 animated slideInUp">Explore More</a>
+        </div>
+        <div>
+            <aside>
+                <h4>Epcot Center</h4>
+                <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+              </aside>
+        </div>
+    </header>    
+   
+   
+       <script type="text/javascript">
+        function slideshow(){
+            var x=document.getElementById('check');
+            if(x.style.display === "none"){
+                x.style.display="block";
+            }else{
+                x.style.display="none";
+            }
+        }
+       </script>
+</body>
+</html>
